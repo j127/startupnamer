@@ -8,6 +8,9 @@ class StartupNamer extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Startup Namer App",
+      theme: ThemeData(
+        primaryColor: Colors.white,
+      ),
       home: RandomWords()
     );
   }
